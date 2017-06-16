@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#FFCCBC" Title="{Binding Title}" Icon="{Binding Icon}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Championship.Pages.MenuPage" xmlns:vm="clr-namespace:Championship.ViewModel;">
+    <ContentPage.BindingContext>
+        <vm:MenuViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Source="playstoreicon" />
+            <Button VerticalOptions="EndAndExpand" TextColor="White" BorderRadius="0" BackgroundColor="#FF5722" Command="{Binding SignOutCommand}" Text="Salir" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="{Binding Title}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Championship.Pages.CreateNewItem" xmlns:vm="clr-namespace:Championship.ViewModel;">
+    <ContentPage.BindingContext>
+        <vm:CreateNewItemViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Margin="30" VerticalOptions="Start" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200" Aspect="AspectFill" Source="{Binding Path}" />
+            <StackLayout VerticalOptions="End">
+                <Button TextColor="White" BorderRadius="0" BackgroundColor="#FF5722" Text="Capturar Foto" Command="{Binding TakePhotoCommand}" />
+                <Button TextColor="White" BorderRadius="0" BackgroundColor="#FF5722" Text="Publicar Bache" IsEnabled="{Binding IsNotBusy}" Command="{Binding SaveCommand}" />
+            </StackLayout>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

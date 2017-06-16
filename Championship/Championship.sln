@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship", "Championship\Championship.csproj", "{20BF0300-AD39-4863-8482-AA734A72DF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship.Droid", "Droid\Championship.Droid.csproj", "{36BA5D7F-CA9B-4E65-96C4-DF9CFA58A273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship.Core", "Championship.Core\Championship.Core.csproj", "{00F18CAE-9EEA-40CA-825A-7F6260FC3973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotions", "Emotions\Emotions.csproj", "{21055B2D-ED53-462B-A81D-E48F75C2CBB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BF0300-AD39-4863-8482-AA734A72DF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BF0300-AD39-4863-8482-AA734A72DF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BF0300-AD39-4863-8482-AA734A72DF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BF0300-AD39-4863-8482-AA734A72DF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BA5D7F-CA9B-4E65-96C4-DF9CFA58A273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BA5D7F-CA9B-4E65-96C4-DF9CFA58A273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BA5D7F-CA9B-4E65-96C4-DF9CFA58A273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BA5D7F-CA9B-4E65-96C4-DF9CFA58A273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F18CAE-9EEA-40CA-825A-7F6260FC3973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F18CAE-9EEA-40CA-825A-7F6260FC3973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F18CAE-9EEA-40CA-825A-7F6260FC3973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F18CAE-9EEA-40CA-825A-7F6260FC3973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21055B2D-ED53-462B-A81D-E48F75C2CBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21055B2D-ED53-462B-A81D-E48F75C2CBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21055B2D-ED53-462B-A81D-E48F75C2CBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21055B2D-ED53-462B-A81D-E48F75C2CBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

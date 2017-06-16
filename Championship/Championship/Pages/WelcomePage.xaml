@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Championship.Pages.WelcomePage" xmlns:vm="clr-namespace:Championship.ViewModel;">
+    <ContentPage.BindingContext>
+        <vm:WelcomeViewModel />
+    </ContentPage.BindingContext>
+	<ContentPage.Content>
+        <Grid>
+            <Image x:Name="_logoImage" Opacity="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Source="playstoreicon" />
+            <Grid ColumnSpacing="1" BackgroundColor="White" VerticalOptions="End">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                 <Button BorderRadius="0" TextColor="White" BackgroundColor="#3b5998" Command="{Binding FacebookCommand}" Text="Ingresar con Facebook" IsEnabled="{Binding IsNotBusy}" />
+            </Grid>
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>
