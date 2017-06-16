@@ -32,6 +32,7 @@
     <AndroidSigningStorePass>xamarin</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>xamarin</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>xamarin</AndroidSigningKeyPass>
+    <JavaMaximumHeapSize>2G</JavaMaximumHeapSize>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
