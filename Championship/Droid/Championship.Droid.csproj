@@ -28,7 +28,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <AndroidKeyStore>True</AndroidKeyStore>
-    <AndroidSigningKeyStore>/Users/alejandroruiz/Projects/Championship/xamarin.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>xamarin.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>xamarin</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>xamarin</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>xamarin</AndroidSigningKeyPass>
